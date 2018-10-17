@@ -1,0 +1,174 @@
+% !TEX TS-program = XeLaTeX
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% My Version (01-18-2018)
+% Author: Danis Fermi
+% Repository: https://github.com/danisfermi/Resume (Forked from )
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[print]{danis-resume}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\rfoot{Page \thepage \hspace{1pt}}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Danis}{Fermi}{ \urlstyle{same}\href{https://www.linkedin.com/in/danisfermi/}{linkedin.com/in/danisfermi} | \href{https://github.com/danisfermi}{github.com/danisfermi}\\
+\href{mailto:dfermi@ncsu.com}{dfermi@ncsu.edu} | 919.670.8734 | \href{skype:danisfermijohn?call}{Skype: danisfermijohn}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COLUMN ONE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education}
+
+\subsection{NC State University}
+\descript{MS in Computer Networking}
+\location{May 2018 | Raleigh, NC}
+\sectionsep
+
+\subsection{NIT Calicut}
+\descript{B.Tech in Electrical \& Electronics Engineering}
+\location{May 2014 | Calicut, India}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\subsection{Graduate}
+Switched Network Management \\
+Internet Protocols \\
+Computer \& Network Security \\
+Routed Network Design \\
+Software Defined Networking \\
+Advanced Topics in Internet Protocols \\
+Design \& Analysis of Algorithms \\
+Operating Systems \\
+Cloud Computing \\
+{\footnotesize \textit{\textbf{(In-Progress) }}} \\
+Wireless Networking \\
+Linux Networking \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+CCNP \& CCNA Trained \\
+\sectionsep
+\subsection{Programming}
+C/C++ \textbullet{} Python \textbullet{} Shell Scripting \\
+\sectionsep
+\subsection{Systems}
+Linux (CentOS, Debian) \textbullet{} Cisco IOS CLI \\
+\sectionsep
+\subsection{Networking}
+{\footnotesize \textit{\textbf{LAYER 2: }}}
+EtherChannel \textbullet{} ARP \textbullet{} STP [RSTP, MST, PVST] \\
+{\footnotesize \textit{\textbf{LAYER 3: }}}
+OSPF \textbullet{} BGP \textbullet{} RIP \textbullet{} HSRP, VRRP, GLBP \\
+{\footnotesize \textit{\textbf{VIRTUALIZATION: }}}
+MPLS \textbullet{} VLAN \textbullet{} VxLAN \textbullet{} VPLS \textbullet{} VPN \textbullet{} Hypervisors [KVM, VirtualBox] \textbullet{} Containers  [LXC, LXD] \\
+{\footnotesize \textit{\textbf{OTHER: }}}
+TCP/IP \textbullet{} DNS \textbullet{} SSH \\
+{\footnotesize \textit{\textbf{CLOUD COMPUTING: }}}
+OpenStack \textbullet{} VCL \textbullet{} Basic AWS \\
+{\footnotesize \textit{\textbf{STORAGE: }}}
+Basic NAS \& SAN Protocols \\
+{\footnotesize \textit{\textbf{SDN: }}}
+OpenFlow \textbullet{} Ryu Controller \textbullet{} OVS \\
+{\footnotesize \textit{\textbf{IoT: }}}
+MQTT \textbullet{} CoAP \textbullet{} 6LoWPAN \\
+{\footnotesize \textit{\textbf{DEVOPS: }}}
+Basic Ansible \& Vagrant \\
+{\footnotesize \textit{\textbf{SECURITY: }}}
+Wireshark \textbullet{} Metasploit \textbullet{} Burp Suite \\
+{\footnotesize \textit{\textbf{TOOLS: }}}
+SNMP-MIB \textbullet{} Wireshark \textbullet{} OpenNMS \textbullet{} VIRL \textbullet{} ExoGENI \textbullet{} GNS3 \textbullet{} Cisco Packet Tracer \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COLUMN TWO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.66\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{VirtusaPolaris Software Services}
+\descript{| Database Engineer}
+\location{Jun 2014 â Jun 2016 | Chennai, India}
+Database Management [Oracle 11G] \textbullet{} Data Enrichment \& Data Migration [SQL/PL-SQL Stored Procedures] \textbullet{} ETL \& Business Intelligence for NAM Banking Client [Microstrategy]
+\textbullet{} Shell Scripting
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{OpenStack on a Stick}
+\descript{| Bash}
+Automated Installation \& Troubleshooting of OpenStack on VT capable x86 machines \textbullet{} Single Node \& Multi-Node Cluster Support
+\sectionsep
+
+\runsubsection{Non-Persistant Heap using Kernel Module}
+\descript{| C}
+Developed an in-memory kernel module for data sharing between processes  \textbullet{} Extended degree of parallelism using transactional memory \textbullet{} Developed a FUSE File system for the device
+\sectionsep
+
+\runsubsection{Linux Firewall using Kernel Module \& Netfilter Hooks}
+\descript{| C}
+Implemented Linux Firewall using Netfilter hooks
+\sectionsep
+
+\runsubsection{Scalable REST-API Web Application}
+\descript{| Python \& HTML}
+RESTful-API web app [GET/POST/PUT/DELETE methods] using Python \& Flask \textbullet{}mySQL Backend \textbullet{} HTML Frontend \textbullet{} Python script to interact with the web application \textbullet{}  Automated Deployment using ANSIBLE \& wsgi module of Apache \textbullet{} Automated Scaling using HAProxy \textbullet{} Firewall configuration using IP Tables
+\sectionsep
+
+\runsubsection{Link Utilization \& Traffic Engineering}
+\descript{| Python \& C++}
+Traffic Engineering in NMS based IP networks \& SDN Networks (Ryu Controller \& OVS)
+\textbullet{} Code to interact with SNMP MIB \& implement feedback model for OSPF cost management \textbullet{} Code to discover topology, gather network statistics (for feedback) \& forward packets using Djikstra's Algortihm
+\sectionsep
+
+\runsubsection{SDN based Intrusion Detection System}
+\descript{| Python}
+A research paper that proposes a logical model for an SDN based Intrusion Detection System \textbullet{} Code to gather per flow \& per flow statistics
+\sectionsep
+
+\runsubsection{Indoor Mobile Localization using WiFi}
+\descript{| Android}
+Android Application to detect indoor object position \textbullet{} Uses a single WAP \& 3 points to reduce WAP dependency \textbullet{} Algorithm to improve accuracy, pending submission to MOBICON
+\sectionsep
+
+\runsubsection{Chat based Peer-to-Peer File Transfer}
+\descript{| Python}
+Centralized chat server using TCP \textbullet{} Peer-to-peer file transfer [w Chat] using UDP \textbullet{} TCP features like ACKs, Go-Back-N with with variable window size etc. on top of UDP
+\sectionsep
+
+\runsubsection{Reverse Port Knocking Shell}
+\descript{| Python}
+Python-based backdoor that runs passively, listens to a predefined sequence of knocks \textbullet{} Downloads \& executes commands on successful knock \textbullet{} Python-based knocker to stimulate the knock
+\sectionsep
+
+\end{minipage}
+\end{document}  \documentclass[print]{danis-resume}
